@@ -1,0 +1,3 @@
+nodeid,name,parentnodeid,nodetype,nodeclass,parentrelation
+DOMAIN:0,IT,0,domain,domain,domain
+DOMAIN:1,TOURISM,0,domain,domain,domain

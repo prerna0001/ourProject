@@ -1,0 +1,67 @@
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="img">
+
+<mat-tab-group (selectedTabChange) = "myClick($event)">
+  <mat-tab (selectedTabChange) = "myClick($event)" label="{{role}}" *ngFor="let role of roles">
+    <div class="wrapper">
+      <button (click)="done()" background-color="black" mat-button>DONE</button>
+    </div>
+    
+          <div class="container">
+       
+              <div class="row">
+             <br>
+             <!--Start-->
+      <mat-card class="col-md-4" *ngFor = "let provider of filteredProviders" class="example-card">
+        <br>
+
+          <mat-card-header>
+           <b><h3>
+              <div class="img">
+                  <p><img class=" img-fluid" src="https://www.pngrepo.com/download/10120/avatar.png" alt="card image"></p>
+              </div>
+            <mat-card-title>{{provider.name}}</mat-card-title>
+            <mat-card-subtitle>{{provider.emailId}}</mat-card-subtitle>
+           </h3></b>
+          </mat-card-header>
+           
+          <mat-card-content>
+            <b>
+             <h5>About :</h5> 
+             <span>{{provider.about}}</span>
+             <h5>Charge/hr</h5>
+              <span>{{provider.chargePerHour}}</span>
+             <h5>Domain</h5> 
+              <span>{{provider.domain}}</span>
+              <h5>Skills</h5>
+              <span *ngFor = "let skill of provider.skills" >
+                {{skill}}
+              </span>  
+              </b>          
+          </mat-card-content>
+          
+          <br>
+          <mat-card-actions>
+            <button *ngIf = "!provider.status" (click)="accept(provider)" mat-button>Accept</button>
+            <button *ngIf = "!provider.status" (click)="reject(provider)" mat-button>Reject</button>
+            <button *ngIf="provider.status" mat-button >Accepted</button>
+          </mat-card-actions>
+        </mat-card>
+        <!-- </div> -->
+        <!--End-->
+
+     
+
+
+      </div>
+</div>
+
+  </mat-tab>
+
+</mat-tab-group>
+</div>
+
+
+

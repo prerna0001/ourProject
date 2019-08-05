@@ -1,0 +1,125 @@
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<header>
+	  <title>Login Page</title>
+  <!--Made with love by Mutiullah Samim -->
+
+    <!--Bootsrap 4 CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+   <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Custom styles-->
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+	<!--Navbar-->
+	<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+	  <mdb-navbar-brand>
+		<a class="logo navbar-brand waves-light" mdbWavesEffect routerLink="/home"><strong>COLLAB-JUNCTION</strong></a>
+	  </mdb-navbar-brand>
+	  <links>
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active waves-light" mdbWavesEffect>
+			<a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+		  </li>
+
+		  <li class="nav-item waves-light" mdbWavesEffect>
+			<a class="nav-link" routerLink="#">About</a>
+		  </li>
+
+		  <!-- <li class="nav-item waves-light" mdbWavesEffect>
+			<a class="nav-link" routerLink="/signupModal" >Sign Up</a>
+		  </li> -->
+
+		</ul>
+
+
+		
+		
+	  </links>
+	</mdb-navbar>
+	<!-- Full Page Intro -->
+
+	<div class="view">
+	  <!-- Mask & flexbox options-->
+	  <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+		<!-- Content -->
+		<div class="container">
+		  <!--Grid row-->
+		  <div class="row">
+			<!--Grid column-->
+			<div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+			  <h1 class="h1-responsive font-weight-bold mt-sm-5">Where ideas become reality.</h1>
+			  <hr class="hr-light">
+			  <!-- <a mdbBtn color="white" mdbWavesEffect>I want to post an Idea</a> -->
+			  <a routerLink='/innovatorregistration' mdbBtn color="white" outline="true" mdbWavesEffect>I WANT TO POST AN IDEA</a>
+			  <a routerLink='/serviceproviderregistration' mdbBtn color="white" outline="true" mdbWavesEffect>I WANT TO WORK ON AN IDEA</a>
+					 </div>
+			<!--Grid column-->
+			<!--Grid column-->
+			<div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInUp" data-wow-delay="0.3s">
+				
+				<br>
+				<div class="container">
+					<div class="d-flex justify-content-center h-100">
+							<div class="card">
+									<div class="card-header">
+											<h3>Login</h3>
+										
+									</div>
+									
+									<div class="card-body">
+											<form>
+													<div class="input-group form-group">
+															<div class="input-group-prepend">
+																	<span class="input-group-text"><i class="fas fa-user"></i></span>
+															</div>
+															<input type="text" #emailId  id="user" class="form-control" placeholder="Username">
+															
+													</div>
+													<div class="input-group form-group">
+															<div class="input-group-prepend">
+																	<span class="input-group-text"><i class="fas fa-key"></i></span>
+															</div>
+															<input type="password" #password id="pass" class="form-control" placeholder="Password">
+													</div>
+												
+													<div *ngIf = "loggedIn"> You are Invalid User!!!</div>
+													<div class="form-group" #login>
+															<input (click)="authenticateUser(emailId.value, password.value)" type="submit" value="Login" class="btn float-right login_btn">
+													</div>
+											</form>
+										</div>
+									
+									<div class="belowLoginBtn">
+										<p>New User?</p>
+										<a routerLink='/serviceproviderregistration'>Click here to Work on Ideas</a>
+									<br>
+										<a routerLink='/innovatorregistration'>Click here to Post Ideas</a>
+									</div>
+							</div>
+					</div>
+			</div>
+			</div>
+			<!--Grid column-->
+		  </div>
+		  <!--Grid row-->
+		</div>
+		<!-- Content -->
+	  </div>
+	  <!-- Mask & flexbox options-->
+
+	</div>
+	<!-- Full Page Intro -->
+  </header>
+
+
+
+
+
+
+  

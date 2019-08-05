@@ -1,0 +1,125 @@
+
+.btn {
+  width: 3.3cm;
+  height: 1cm;
+  background-color: black;
+  color: white;
+  position: center;
+}
+
+mat-card{
+
+
+width: 100%;
+margin:auto;
+padding: 10%;
+max-width:510px;
+min-height:510px;
+position:relative;
+background-size: cover;
+background:url(https://maxcdn.icons8.com/app/uploads/2016/03/material-1-1000x563.jpg) no-repeat center;
+box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+
+}
+
+.img{
+background-image: url(http://www.waters.com/webassets/cms/promotion/media/home_page_background/homepage-background-appnotes.png);
+
+background-size: cover; 
+background-position: center center;
+
+}
+
+.display-4{
+  font-size: 40px;
+  text-align: center;
+}
+
+.fullbody{
+  background-image: url("https://images.pexels.com/photos/159805/meeting-modern-room-conference-159805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-attachment: fixed;
+   background-position: center center;
+}
+img{
+  height:100%;
+  width: 100%;
+}
+
+
+/* .container-fluid{
+  padding-left: 0%;
+  padding-right: 0%;
+} */
+
+
+
+
+@media (max-width: 300px) {
+#header .fullbody {
+  width: 100%;
+  height: 100%;
+  }
+ 
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
+  background-size: cover;
+}
+body{}
+
+.mat-button{
+
+text-align: center;
+background-color:black;
+color: white;
+}
+
+
+
+body {
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  background:#fbfbfb;
+}
+.card {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:300px;
+  min-height:400px;
+  background:#fff;
+  box-shadow:0 20px 50px rgba(0,0,0,.1);
+  border-radius:10px;
+  transition:0.5s;
+}
+
+
+/* h1{
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 4rem;
+  text-transform: uppercase;
+  animation: background-move 10s infinite;
+  background: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/retro-pattern/triangle-pattern.jpg
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+}

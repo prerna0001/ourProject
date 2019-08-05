@@ -1,0 +1,32 @@
+nodeid,name,parentnodeid,nodetype,nodeclass,parentrelation
+SUBDOMAIN:0,Software Development,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:1,Hardware Development,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:2,Networking,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:3,Robotics,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:4,Mobile App Developement,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:5,Virtual Reality,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:6,Web Developement,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:7,Back End Developement,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:8,Artificial Intelligence,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:9,Big Data,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:10,Data Mining,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:11,Machine-Learning,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:12,Cloud,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:13,Testing,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:14,Data-Analitics,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:15,Angular,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:16,Java,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:17,Sensor networks,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:18,IOT,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:19,AWS,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:20,Cultural Tourism,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:21,Business Tourism,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:22,WildLife Tourism,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:23,Photography,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:24,Medical Tourism,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:25,Educational tour,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:26,Flora and Fauna Tour,DOMAIN:1,subdomain,subdomain,belongs_to
+SUBDOMAIN:27, Game Development,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:28,Mobile Application,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:29,Web Application,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:30,General,DOMAIN:1,subdomain,subdomain,belongs_to

@@ -1,0 +1,18 @@
+nodeid,name,parentnodeid,nodetype,nodeclass,parentrelation
+SUBDOMAIN:0,Software Development,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:1,Hardware Development,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:2,Networking,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:3,Robotics,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:4,Mobile App Developement,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:5,Virtual Reality,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:6,Web Developement,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:7,Back End Developement,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:8,Artificial Intelligence,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:9,Big Data,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:10,Data Mining,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:11,Machine-Learning,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:12,Cloud,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:13,Testing,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:14,Data-Analitics,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:15,Angular,DOMAIN:0,subdomain,subdomain,belongs_to
+SUBDOMAIN:16,Java,DOMAIN:0,subdomain,subdomain,belongs_to
